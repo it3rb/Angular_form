@@ -1,0 +1,55 @@
+.box{
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+   
+}
+
+.log_box{
+    width: 35%;
+    height: 40em;
+   /* background-color:#3E3E3E;*/
+    display: grid;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white; 
+    background-color: #3E3E3E;
+}
+
+
+.log_box input{
+   background-color: #3E3E3E;
+   border: white solid 2px;
+   border-radius: 2em;
+   height: 3em;
+   width: 20vw;
+   color: white;
+   margin-top: 5%;
+   transition: all 0.3s linear;
+}
+
+.log_box label{
+    margin-top: 5%;
+    text-align: left;
+    height: 50%;
+}
+
+.p_one{
+    display: flex;
+    align-items:center;
+}
+.bt{
+    background-color: #3E3E3E;
+   border: white solid 2px;
+   border-radius: 2em;
+   height: 3em;
+   width: 20vw;
+   color: white;
+   margin-top: 5%;
+   transition: all 0.3s linear;
+}
